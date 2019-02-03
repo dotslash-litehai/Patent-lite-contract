@@ -18,3 +18,5 @@ Smart contracts represent the business logic of the blockchain application. Curr
 
 ### Workflow of Contract:
 
+<img src="./flowchart.jpg">
+
