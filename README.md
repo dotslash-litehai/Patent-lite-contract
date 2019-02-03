@@ -20,3 +20,25 @@ Smart contracts represent the business logic of the blockchain application. Curr
 
 <img src="./flowchart.jpg">
 
+Application Roles 
+------------------
+
+| Name       | Description                                                                                         |
+|------------|-----------------------------------------------------------------------------------------------------|
+| Applicant     | A person who applies for the patent.                                             |
+| Admin      | Verifies at a high level and assigns Inspector and Appraiser to application.                                     |
+| Inspector  | A person who is chosen by the admin to be the inspector of the patent being considered.   |
+| Appraiser  | A person who is chosen by the admin to be the appraiser for the patent being considered.  |
+
+States 
+-------
+
+| Name                 | Description                                                                                                 |
+|----------------------|-------------------------------------------------------------------------------------------------------------|
+| Active               | Indicates that an patent is available.                                                      |
+| Patent Applied         | Indicates a patent application being accepted.                                                                       |
+| Pending Inspection   | Indicates a aptent being assigned Inspector and Appraiser.                      |
+| Inspected            | Indicates the Inspector's approval regarding patent under consideration.                                    |
+| Appraised            | Indicates the Appraiser's approval regarding patent under consideration.                                    |
+| Accepted             | Indicates that the inspector, approver and admin have agreed to the acceptance of the patent under consideration.  |
+| Terminated           | Indicates disapproval to continue with patent application.                       |
